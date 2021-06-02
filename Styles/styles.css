@@ -1,0 +1,400 @@
+
+
+/* Navigation */
+/* Products Page */
+
+
+
+
+
+
+
+
+
+
+
+.Sec-Pr{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-Pr .container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Sec-Pr h1 {
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    height: 75px;
+    
+}
+
+.Sec-Pr p {
+    border: 1px solid black;
+    margin: 10px;
+    height: 150px;
+    font-size: 25px;
+}
+
+.Sec-Pr img {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.Sec-Pr .image__overlay {
+    border-radius: 50%;
+}
+
+.Sec-Pr .image__title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.Sec-Pr .row {
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Services Page */
+/* Partners Page */
+
+
+.Sec-P {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-P .row {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-P img {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image {
+    position: relative;
+    width: 200px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: #003495;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+
+
+
+
+
+
+
+
+/* Team Page */
+
+.Sec-T {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-T2 {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-T2 .container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Sec-T2 .row {
+    border: 1px solid black;
+    
+    
+}
+
+.Sec-T2 img {
+    border: 1px solid black;
+    margin: 5px;
+    width: 150px;
+   
+}
+
+.Sec-T2 h2 {
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.team p {
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 21px;
+}
+
+.team-img {
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page*/
+.Para_6 {
+    border: 1px solid black;
+}
+
+.Hero_img {
+    border: 1px solid black;
+    height: 520px;
+}
+
+.Hero_p {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.Office {
+    border: 1px solid black;
+}
+
+.info {
+    border: 1px solid black;
+}
+
+.info h1 {
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.info h3 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.info p {
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 21px;
+}
+
+.info ul {
+    border: 1px solid black;
+    height: 500px;
+}
+
+.info ul li {
+    font-size: 19px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page*/
+.First  {
+    border: 1px solid black;
+}
+
+.First ul li {
+    display: inline-block;
+    width: 300px;
+    margin-right: 55px;
+    
+}
+
+.First h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.First p {
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-form {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+}
+
+.Jumbotron {
+    margin: 5px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.Jumbotron h1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bungee;
+}
+
+.Jumbotron p {
+    padding: 5px;
+    text-align: center;
+}
+
+.location {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Sec-A {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+}
