@@ -1,6 +1,53 @@
 
 
 /* Navigation */
+.navbar ul li {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.navbar-brand {
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+   
+}
+
+/*Index*/
+
+.home {
+    border: 1px solid black;
+    height: 300px;
+
+}
+
+
+.home h1 {
+    font-size: 6rem;
+    font-family: Bungee;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.home p {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 /* Products Page */
 
 
@@ -104,7 +151,7 @@
 }
 
 .Sec-P img {
-    border: 1px solid black;
+    
     margin: 5px;
 }
 
@@ -338,34 +385,36 @@
     display: inline-block;
     width: 300px;
     margin-right: 55px;
-    
+    border: 1px solid black;   
 }
 
 .First h3 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    border: 1px solid black;
     margin: 5px;
+    border: 1px solid black;
 }
 
 .First p {
-    border: 1px solid black;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
 .contact-form {
-    border: 1px solid black;
     height: 500px;
     width: 500px;
     margin: 5px;
+    border: 1px solid black;
 }
 
 .Jumbotron {
     margin: 5px;
     height: 150px;
     border: 1px solid black;
+    background-color: #282828;
+    color: cornsilk;
+ 
 }
 
 .Jumbotron h1 {
@@ -386,8 +435,13 @@
 }
 
 .Sec-A {
-    border: 1px solid black;
     margin: 5px;
+    border: 1px solid black;
+}
+
+.Sec-B {
+    margin: 5px;
+    border: 1px solid black;   
 }
 
 
@@ -397,4 +451,8 @@
     height: 100px;
     border: 1px solid black;
     margin: 5px;
+}
+
+.footer p {
+    float: right;
 }
